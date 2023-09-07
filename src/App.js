@@ -31,18 +31,18 @@ function App() {
     },
   ];
 
-  return React.createElement(
-    'div',
-    {},
-    React.createElement('h2', {}, "Let's get started!"),
-    React.createElement(Expenses, { items: expenses })
-  );
-  // return (
-  //   <>
-  //     <h2>Let's get started!</h2>
-  //     <Expenses items={expenses} />
-  //   </>
+  // return React.createElement(
+  //   'div',
+  //   {},
+  //   React.createElement('h2', {}, "Let's get started!"),
+  //   React.createElement(Expenses, { items: expenses })
   // );
+  return (
+    <>
+      <h2>Let's get started!</h2>
+      <Expenses items={expenses} />
+    </>
+  );
 }
 
 export default App;
